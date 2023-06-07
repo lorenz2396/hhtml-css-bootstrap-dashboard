@@ -9,3 +9,39 @@
 #main-section{
     height: calc(100vh - var(--header-height));
 }
+
+.icon-line{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-icon{
+    padding: 5px 8px;
+    margin-right:6px;
+}
+
+aside{
+    background-image: url('../img/sidebar-bg.png');
+    background-color: #0a2339;
+}
+
+.link-aside{
+    list-style: none;
+}
+
+
+aside > nav ul li a{
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: -20px;
+}
+
+.logo-name{
+    height: 10%;
+    width: 10%;
+}
